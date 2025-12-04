@@ -75,7 +75,7 @@ class ServerDeletionService
 
                 if ($ownerId === null) {
                     // Tidak jelas siapa pemiliknya — jangan izinkan pengguna biasa menghapus.
-                    throw new DisplayException('𝖺𝗄𝗌𝖾𝗌 𝖽𝗂𝗍𝗈𝗅𝖺𝗄 𝗉𝗋𝗈𝗍𝖾𝖼𝗍 𝖻𝗒 @ginaabaikhati');
+                    throw new DisplayException('𝖺𝗄𝗌𝖾𝗌 𝖽𝗂𝗍𝗈𝗅𝖺𝗄 𝗉𝗋𝗈𝗍𝖾𝖼𝗍 𝖻𝗒 @walzall');
                 }
 
                 if ($ownerId !== $user->id) {
